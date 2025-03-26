@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog - Nexo ES</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        nexia: {
+                            dark: '#111827',
+                            darker: '#0B0F19',
+                            light: '#3B82F6',
+                            accent: '#60A5FA'
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="icon" href="img/standard (5).gif" type="image/gif">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-nexia-dark to-nexia-darker text-white min-h-screen font-['Inter']">
+    <header class="bg-gray-800/80 backdrop-blur-sm shadow-xl sticky top-0 z-50 border-b border-gray-700/50">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="relative group">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full opacity-60 group-hover:opacity-100 blur transition duration-300"></div>
+                        <img src="img/standard (5).gif" alt="Nexo ES Logo" class="h-12 w-12 mr-4 relative rounded-full transform group-hover:scale-105 transition duration-300">
+                    </div>
+                    <h1 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Nexo ES</h1>
+                </div>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="index.html" class="hover:text-blue-400 transition duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-gray-700/50">Inicio</a></li>
+                        <li><a href="index.html#about" class="hover:text-blue-400 transition duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-gray-700/50">Acerca de</a></li>
+                        <li><a href="index.html#features" class="hover:text-blue-400 transition duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-gray-700/50">Características</a></li>
+                        <li><a href="changelog.html" class="font-bold text-blue-400 bg-gray-700/50 px-3 py-2 rounded-lg border-b-2 border-blue-400 shadow-md">Changelog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <section class="mb-16 max-w-4xl mx-auto">
+            <div class="relative mb-10 text-center">
+                <h2 class="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-400 to-blue-500 inline-block">Historial de Cambios</h2>
+                <div class="h-1 w-32 bg-gradient-to-r from-blue-400 to-indigo-500 mx-auto rounded-full"></div>
+            </div>
+            <p class="text-xl text-gray-300 mb-12 text-center leading-relaxed">Aquí puedes encontrar todas las actualizaciones y mejoras que hemos implementado en el servidor Nexo ES.</p>
+            
+            <div class="space-y-8" id="changelog-entries">
+                <div class="bg-gray-800/70 p-6 rounded-xl shadow-xl hover:shadow-blue-500/10 hover:bg-gray-700/70 transition-all duration-300 transform hover:-translate-y-1 border border-gray-700/50 backdrop-blur-sm">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2">
+                        <h3 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-indigo-300">Alpha 0.1</h3>
+                        <span class="text-gray-400 bg-gray-700/70 px-3 py-1 rounded-full text-sm font-medium">26/03/2025</span>
+                    </div>
+                    <a href="changelogs/2025-03-26-alpha-0.1.html" class="inline-flex items-center mt-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 group">
+                        Ver detalles
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </a>
+                </div>
+</div>
+                    <a href="changelogs/2025-03-26-alpha-0.1.html" class="inline-flex items-center mt-2 text-blue-400 hover:text-blue-300 transition-colors duration-300 group">
+                        Ver detalles
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                    </a>
+                </div>
+</div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800/80 backdrop-blur-sm py-10 border-t border-gray-700/50 mt-20">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center items-center mb-6">
+                <img src="img/standard (5).gif" alt="Nexo ES Logo" class="h-10 w-10 mr-3">
+                <h2 class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Nexo ES</h2>
+            </div>
+            <p class="text-gray-400 mb-6">© 2023 Nexo ES - Servidor Alpha. Todos los derechos reservados.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 px-3 py-1 rounded-lg hover:bg-gray-700/50">Política de Privacidad</a>
+                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 px-3 py-1 rounded-lg hover:bg-gray-700/50">Términos de Servicio</a>
+                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 px-3 py-1 rounded-lg hover:bg-gray-700/50">Contacto</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
