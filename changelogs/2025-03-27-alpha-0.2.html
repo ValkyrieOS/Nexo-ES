@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha 0.2 - Nexo ES Changelog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        nexia: {
+                            dark: '#111827',
+                            darker: '#0B0F19',
+                            light: '#3B82F6',
+                            accent: '#60A5FA'
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="icon" href="../img/standard (5).gif" type="image/gif">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-nexia-dark to-nexia-darker text-white min-h-screen font-['Inter']">
+    <header class="bg-gray-800/80 backdrop-blur-sm shadow-xl sticky top-0 z-50 border-b border-gray-700/50">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <div class="relative group">
+                        <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full opacity-60 group-hover:opacity-100 blur transition duration-300"></div>
+                        <img src="../img/standard (5).gif" alt="Nexo ES Logo" class="h-12 w-12 mr-4 relative rounded-full transform group-hover:scale-105 transition duration-300">
+                    </div>
+                    <h1 class="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Nexo ES</h1>
+                </div>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="../index.html" class="hover:text-blue-400 transition duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-gray-700/50">Inicio</a></li>
+                        <li><a href="../index.html#about" class="hover:text-blue-400 transition duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-gray-700/50">Acerca de</a></li>
+                        <li><a href="../index.html#features" class="hover:text-blue-400 transition duration-300 ease-in-out px-3 py-2 rounded-lg hover:bg-gray-700/50">Características</a></li>
+                        <li><a href="../changelog.html" class="font-bold text-blue-400 bg-gray-700/50 px-3 py-2 rounded-lg border-b-2 border-blue-400 shadow-md">Changelog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <section class="mb-16 max-w-4xl mx-auto">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-3">
+                <h2 class="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-400">Alpha 0.2</h2>
+                <span class="text-gray-400 bg-gray-700/70 px-3 py-1 rounded-full text-sm font-medium">27/03/2025</span>
+            </div>
+            <div class="bg-gray-800/70 p-8 rounded-xl shadow-xl border border-gray-700/50 backdrop-blur-sm mb-10">
+                <p class="text-xl text-gray-300 leading-relaxed">Nexia se une a la comunidad</p>
+            </div>
+            
+            <div class="relative mb-8">
+                <h3 class="text-2xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-indigo-300 inline-block">Cambios</h3>
+                <div class="h-0.5 w-16 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-full"></div>
+            </div>
+            <ul class="space-y-4 pl-6">
+                <li class="text-gray-300"><span class="text-blue-400">•</span> Nexia es la nueva bot oficial, puedes utilizarla para absolutamente todo, ahora esta en fase prematura pero pronto tendreis un monton de cosas para nuestro servidor y para el vuestro</li>
+                <li class="text-gray-300"><span class="text-blue-400">•</span> Se a añadido las Nexocoins, una moneda que podreis utilizarla para comprar cosas en el servidor, Y COSAS FUERA, puedes conseguir cosas fuera de Nexo utilizando el bot en nuestro servidor y en eventos.</li>
+            </ul>
+        </section>
+        
+        <div class="mt-8">
+            <a href="../changelog.html" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition">← Volver a todos los cambios</a>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 py-8 mt-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-400">© 2025 Nexo ES - Servidor Alpha. Todos los derechos reservados.</p>
+            <div class="mt-4">
+                <a href="#" class="text-gray-400 hover:text-blue-400 mx-2">Política de Privacidad</a>
+                <a href="#" class="text-gray-400 hover:text-blue-400 mx-2">Términos de Servicio</a>
+                <a href="#" class="text-gray-400 hover:text-blue-400 mx-2">Contacto</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
